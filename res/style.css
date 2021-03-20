@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('./fonts/Lato-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Light.woff2') format('woff2');
+}
+h1, h2, header, footer {
+	text-align: center;
+	font-family: 'Lato';
+}
+.flexbox, main {
+	font-family: 'Roboto';
+	text-align: center;
+}
+.flexbox {
+	display: flex;
+	margin: 8em;
+}
+.flexbox > aside {
+	flex: 1;
+	background-color: #dfd;	
+	margin: 2em;
+	padding: 1em;
+	border-radius: 3em;
+}
+.flexbox > article {
+	flex: 2;
+	background-color: #efe;
+	margin: 2em;
+	padding: 1em;
+	border-radius: 3em;
+}
